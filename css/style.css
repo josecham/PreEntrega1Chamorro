@@ -1,0 +1,312 @@
+/* GENERAL */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: darkgreen;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.bgPrincipal {
+  background-color: greenyellow;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(195, 247, 118);
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+iframe {
+  border-radius: 20px;
+  margin: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+
+/* INPUT */
+input:focus {
+  height: 100px;
+  font-size: 30px;
+  background-color: lightgrey;
+  color: white;
+}
+
+/* VARIABLES */
+:root {
+  --bg-principal:aqua;
+  --f-s-p-desktop:30px;
+}
+
+header {
+  background-color: var(--bg-principal);
+}
+
+.mensaje {
+  border-radius: 20px;
+}
+
+.circle {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  animation-name: cambiarColor;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+  }
+  a {
+    color: black;
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .gridMainProyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  h3 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .img-fluid {
+    width: 95%;
+    border-radius: 20px;
+  } /* para evitar el overflow */
+  img {
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .colorform {
+    background-color: lightyellow;
+    font-size: 14px;
+    width: 200px;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .elemento {
+    width: 96%;
+    height: 20px;
+    border-radius: 20px;
+  }
+  img {
+    margin: 20px;
+  }
+  @keyframes cambiarColor {
+    0% {
+      background-color: aliceblue;
+      transform: translateY(30%) scale(1.2);
+    }
+    100% {
+      background-color: brown;
+      transform: translateY(100%) scale(0.6);
+    }
+  }
+}
+/* DESKTOP */
+@media (min-width: 1024px) {
+  /* GRID INDEX */
+  /* primero grillas,flexbox y box modeling */
+  .grid {
+    display: grid; /*propiedad que nos habilita el uso de grillas*/
+  }
+  .grid {
+    /* 1 columna y 3 filas */
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  /* cada etiqueta a que parte representa */
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  /* un grid dentro de otro grid */
+  .gridMainIndex {
+    display: grid;
+    grid-template-areas: "imgPrincipal imgPrincipal" "titulo titulo" "pIzq imgP"; /* una fila con dos columnas */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+  /* cada clase a que parte representa */
+  .imgPrincipal {
+    grid-area: imgPrincipal;
+  }
+  .titulo {
+    grid-area: titulo;
+  }
+  .parrafoIzq {
+    grid-area: pIzq;
+  }
+  .imgTexto {
+    grid-area: imgP;
+  }
+  /* un grid dentro de otro grid proyecto */
+  .gridMainProyectos {
+    display: grid;
+    grid-template-areas: "tituloProdu tituloProdu tituloProdu" "prodA prodB prodC"; /* una fila con tres columnas */
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: auto auto auto;
+  }
+  .tituloProdu {
+    grid-area: tituloProdu;
+  }
+  .prodA {
+    grid-area: prodA;
+  }
+  .prodB {
+    grid-area: prodB;
+  }
+  .prodC {
+    grid-area: prodC;
+  }
+  /* FLEX*/
+  header, ul, footer {
+    display: flex;
+  } /* se acomodo con fexbox el header y footer */
+  .producto {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  /* BOX MODEL*/
+  li {
+    padding: 20px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .img-fluid {
+    width: 100%;
+    height: 400px;
+  } /* para evitar el overflow */
+  .prod img {
+    border-bottom: 2px solid cyan;
+  }
+  .imgr {
+    width: 90%;
+    margin-top: 60px;
+  }
+  img {
+    border-radius: 20px;
+  }
+  .colorform {
+    background-color: lightyellow;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .elemento {
+    width: 227px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  /* LA PSEUDOCLASES */
+  a {
+    text-decoration: none;
+    color: blue;
+    transition: 1s all;
+  }
+  a:hover {
+    color: chartreuse;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  @keyframes cambiarColor {
+    0% {
+      background-color: aliceblue;
+      transform: translateX(30%) scale(1.2);
+    }
+    100% {
+      background-color: brown;
+      transform: translateX(100%) scale(0.6);
+    }
+  }
+}
+header {
+  background-image: linear-gradient(to bottom, rgba(97, 95, 160, 0.6588235294), transparent);
+}
+
+footer {
+  background-image: linear-gradient(to top, rgba(97, 95, 160, 0.6588235294), transparent);
+}
+
+/*# sourceMappingURL=style.css.map */
