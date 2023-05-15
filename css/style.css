@@ -118,7 +118,7 @@ header {
     text-align: center;
   }
   .img-fluid {
-    width: 95%;
+    width: 90%;
     border-radius: 20px;
   } /* para evitar el overflow */
   img {
@@ -140,6 +140,10 @@ header {
   }
   img {
     margin: 20px;
+  }
+  .foto {
+    width: 90%;
+    border-radius: 20px;
   }
   @keyframes cambiarColor {
     0% {

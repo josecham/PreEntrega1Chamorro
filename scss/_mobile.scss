@@ -16,7 +16,7 @@
     h1{
         text-align: center;
     }
-    .img-fluid{width: 95%;border-radius:20px;}/* para evitar el overflow */
+    .img-fluid{width: 90%;border-radius:20px;}/* para evitar el overflow */
     img{border-radius: 20px;margin: 20px}
     .colorform{
         background-color:lightyellow;
@@ -30,10 +30,14 @@
     .elemento{
        width: 96%;
        height: 20px;
-       border-radius: 20px 
+       border-radius: 20px;
     }
     img{
         margin:20px;
+    }
+    .foto{
+        width: 90%;
+        border-radius: 20px;
     }
     @keyframes cambiarColor{
         0%{
