@@ -5,7 +5,7 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: darkgreen;
+  color: rgb(18, 4, 80);
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
@@ -241,7 +241,6 @@ header {
   }
   .imgr {
     width: 90%;
-    margin-top: 60px;
   }
   img {
     border-radius: 20px;
@@ -272,10 +271,10 @@ header {
   }
   a:hover {
     color: chartreuse;
-    font-size: 20px;
+    font-size: 30px;
     background-color: blue;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
   }
   @keyframes cambiarColor {
     0% {
