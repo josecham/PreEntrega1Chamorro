@@ -2,7 +2,7 @@
 @media (max-width:768px){
     header,main,footer{display:flex;flex-direction: column;align-items: center;}
     ul{display:flex;padding:0;}
-    a{color:black;font-size:22px;padding:5px;margin:5px;}
+    a{color:black;font-size:22px;padding:5px;}
     p{font-size:22px;}
     .gridMainProyectos{
         display:flex;
@@ -17,7 +17,7 @@
         text-align: center;
     }
     .img-fluid{width: 90%;border-radius:20px;}/* para evitar el overflow */
-    img{border-radius: 20px;margin: 20px}
+    img{border-radius: 20px;margin: 20px;}
     .colorform{
         background-color:lightyellow;
         font-size:14px;
@@ -28,7 +28,7 @@
         margin:20px;
     }
     .elemento{
-       width: 96%;
+       width: 95%;
        height: 20px;
        border-radius: 20px;
     }
