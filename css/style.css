@@ -36,8 +36,9 @@ body {
 p {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
+  padding: 10px;
 }
 
 .p20 {
@@ -299,6 +300,15 @@ header {
 
 footer {
   background-image: linear-gradient(to top, rgba(97, 95, 160, 0.6588235294), transparent);
+}
+
+p {
+  font-size: 25px;
+  transition: all 1s;
+}
+p:hover {
+  padding: 20px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
