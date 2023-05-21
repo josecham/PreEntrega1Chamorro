@@ -96,17 +96,8 @@ a:hover{
     padding:10px;
     border-radius: 30px;
 } 
-@keyframes cambiarColor{
-    0%{
-        background-color: aliceblue;
-        transform:translateX(30%) scale(1.2);
-        
-    }
-    100%{
-        background-color: brown;
-        transform:translateX(100%) scale(.6);
-        
-    }
+.centrado{
+    margin: 55px;
 }
 
 }

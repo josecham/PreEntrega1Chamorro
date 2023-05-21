@@ -39,17 +39,10 @@
         width: 90%;
         border-radius: 20px;
     }
-    @keyframes cambiarColor{
-        0%{
-            background-color: aliceblue;
-            transform:translateY(30%) scale(1.2);
-            
-        }
-        100%{
-            background-color: brown;
-            transform:translateY(100%) scale(.6);
-            
-        }
+    .centrado{
+        margin: 90px;
     }
+    
+    
     
 }
