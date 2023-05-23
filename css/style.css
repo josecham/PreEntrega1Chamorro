@@ -107,10 +107,12 @@ h1 {
   a {
     color: black;
     font-size: 22px;
-    padding: 5px;
   }
   p {
     font-size: 22px;
+  }
+  li {
+    padding: 19px;
   }
   .gridMainProyectos {
     display: flex;
