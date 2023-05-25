@@ -6,11 +6,7 @@
     nav{display:block;flex-direction: column;}
     li{padding: 1px;}
 
-    /**header,main,footer{display:flex;flex-direction: column;align-items: center;}
-    ul{display:flex;padding:0;}
-    a{color:black;font-size:22px;}
-    p{font-size:22px;}
-    li{padding: 19px;}**/
+    
     .gridMainProyectos{
         display:flex;
         flex-direction: column;
@@ -26,10 +22,9 @@
     .img-fluid{width: 90%;border-radius:20px;}/* para evitar el overflow */
     img{border-radius: 20px;margin: 20px;}
     .colorform{
-        background-color:lightyellow;
-        font-size:14px;
+        background-color:rgb(2, 2, 1);
+        font-size:12px;
         width: 50%;
-        
         margin-left: 150px;
         border-radius:20px;
         margin:20px;
