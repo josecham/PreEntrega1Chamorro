@@ -101,7 +101,7 @@ h1 {
     align-items: center;
   }
   ul {
-    display: block;
+    display: contents;
     padding: 0;
   }
   a {
