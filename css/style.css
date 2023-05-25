@@ -86,7 +86,7 @@ header {
 }
 
 .imgr {
-  width: 90%;
+  width: 80%;
 }
 
 h1 {
@@ -115,7 +115,7 @@ h1 {
     flex-direction: column;
   }
   li {
-    padding: 11px;
+    padding: 1px;
   }
   /**header,main,footer{display:flex;flex-direction: column;align-items: center;}
   ul{display:flex;padding:0;}
