@@ -135,7 +135,7 @@ h1 {
   } /* para evitar el overflow */
   img {
     border-radius: 20px;
-    margin: 20px;
+    margin: 15px;
   }
   .colorform {
     background-color: lightyellow;
@@ -151,7 +151,7 @@ h1 {
     border-radius: 20px;
   }
   img {
-    margin: 20px;
+    margin: 15px;
   }
   .foto {
     width: 90%;
