@@ -101,19 +101,26 @@ h1 {
     align-items: center;
   }
   ul {
-    display: flex;
+    display: block;
     padding: 0;
   }
   a {
     color: black;
-    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
   }
-  p {
-    font-size: 22px;
+  nav {
+    display: block;
+    flex-direction: column;
   }
   li {
-    padding: 19px;
+    padding: 11px;
   }
+  /**header,main,footer{display:flex;flex-direction: column;align-items: center;}
+  ul{display:flex;padding:0;}
+  a{color:black;font-size:22px;}
+  p{font-size:22px;}
+  li{padding: 19px;}**/
   .gridMainProyectos {
     display: flex;
     flex-direction: column;
