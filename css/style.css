@@ -112,7 +112,7 @@ h1 {
     color: black;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
   }
   nav {
     display: block;
@@ -134,7 +134,7 @@ h1 {
     text-align: center;
   }
   .img-fluid {
-    width: 90%;
+    width: 85%;
     border-radius: 20px;
   } /* para evitar el overflow */
   img {
@@ -155,14 +155,25 @@ h1 {
     border-radius: 20px;
   }
   img {
-    margin: 15px;
+    margin: 30px;
   }
   .foto {
     width: 90%;
     border-radius: 20px;
   }
   .centrado {
-    margin: 90px;
+    margin: 70px;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+    transition: 1s all;
+  }
+  a:hover {
+    color: chartreuse;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 30px;
   }
 }
 /* DESKTOP */
@@ -213,7 +224,7 @@ h1 {
   .gridMainProyectos {
     display: grid;
     grid-template-areas: "tituloProdu tituloProdu tituloProdu" "prodA prodB prodC"; /* una fila con tres columnas */
-    grid-template-columns: 33% 33% 34%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto;
   }
   .tituloProdu {
@@ -247,7 +258,7 @@ h1 {
     margin-top: 20px;
   }
   .img-fluid {
-    width: 100%;
+    width: 95%;
     height: 400px;
   } /* para evitar el overflow */
   .prod img {
@@ -255,6 +266,7 @@ h1 {
   }
   img {
     border-radius: 20px;
+    margin-left: 40px;
   }
   .colorform {
     background-color: lightyellow;
@@ -290,7 +302,10 @@ h1 {
     border-radius: 30px;
   }
   .centrado {
-    margin: 55px;
+    margin: 80px;
+  }
+  .precio {
+    margin-bottom: 0;
   }
 }
 header {

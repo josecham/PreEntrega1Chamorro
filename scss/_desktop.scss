@@ -43,7 +43,7 @@ footer{grid-area:footer;}
     grid-template-areas:
     "tituloProdu tituloProdu tituloProdu"/* una fila con una columna */
     "prodA prodB prodC";/* una fila con tres columnas */
-    grid-template-columns: 33% 33% 34% ; 
+    grid-template-columns: 33% 33% 33% ; 
     grid-template-rows: auto auto auto;
 }
 .tituloProdu{grid-area: tituloProdu;}
@@ -59,11 +59,11 @@ header, ul, footer{display: flex;justify-content: space-around;}/* se acomodo co
 /* BOX MODEL*/
 li{padding:20px;}
 .mt20{margin-top:20px;}
-.img-fluid{width:100%;height: 400px;}/* para evitar el overflow */
+.img-fluid{width:95%;height: 400px;}/* para evitar el overflow */
 .prod img{border-bottom: 2px solid cyan;}
 
 img{
-    border-radius: 20px;
+    border-radius: 20px;margin-left: 40px;
     
 }
 .colorform{
@@ -97,7 +97,9 @@ a:hover{
     border-radius: 30px;
 } 
 .centrado{
-    margin: 55px;
+    margin: 80px;
 }
+.precio {
+    margin-bottom: 0;}
 
 }
