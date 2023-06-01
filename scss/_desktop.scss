@@ -52,7 +52,7 @@ footer{grid-area:footer;}
 .prodC{grid-area:prodC;}
 
 /* FLEX*/
-header, ul, footer{display: flex;}/* se acomodo con fexbox el header y footer */
+header, ul, footer{display: flex;justify-content: space-around;}/* se acomodo con fexbox el header y footer */
 .producto{justify-content: space-between;}
 .align-items-center{align-items: center;}
 

@@ -95,7 +95,11 @@ h1 {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  header, main, footer {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  main, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,6 +231,7 @@ h1 {
   /* FLEX*/
   header, ul, footer {
     display: flex;
+    justify-content: space-around;
   } /* se acomodo con fexbox el header y footer */
   .producto {
     justify-content: space-between;
