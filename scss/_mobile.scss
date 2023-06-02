@@ -3,7 +3,7 @@
     header{display:flex; justify-content: space-between;}
     main,footer{display:flex;flex-direction:column;align-items: center;}
     ul{display:contents;padding:0;}
-    a{color:black;flex-direction:column;align-items: center;font-size: 30px;}
+    a{color:black;flex-direction:column;align-items: center;font-size: 25px;}
     nav{display:block;flex-direction: column;}
     li{padding: 1px;}
 
@@ -35,7 +35,7 @@
        height: 20px;
        border-radius: 20px;
     }
-    img{
+    .imgr{
         margin:30px;
     }
     .foto{
@@ -54,6 +54,8 @@ a:hover{
     border-radius: 30px;
 } 
 .p20{padding:30px;}
-
+body{
+    margin:0;
+}
     
 }
