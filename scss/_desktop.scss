@@ -52,14 +52,14 @@ footer{grid-area:footer;}
 .prodC{grid-area:prodC;}
 
 /* FLEX*/
-header, ul, footer{display: flex;justify-content: space-around;}/* se acomodo con fexbox el header y footer */
+header, ul, footer{display: flex;justify-content:space-between;}/* se acomodo con fexbox el header y footer */
 .producto{justify-content: space-between;}
 .align-items-center{align-items: center;}
 
 /* BOX MODEL*/
 li{padding:20px;}
 .mt20{margin-top:20px;}
-.img-fluid{width:95%;height: 400px;}/* para evitar el overflow */
+.img-fluid{width:93%;height: 400px;}/* para evitar el overflow */
 .prod img{border-bottom: 2px solid cyan;}
 
 img{
@@ -101,5 +101,6 @@ a:hover{
 }
 .precio {
     margin-bottom: 0;}
-
+.carrito{margin-right: 40px;}
+.p20{padding:40px;}
 }
