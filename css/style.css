@@ -165,10 +165,8 @@ h1 {
   }
   a {
     text-decoration: none;
-    color: blue;
-    transition: 1s all;
   }
-  a:hover {
+  a {
     color: chartreuse;
     background-color: blue;
     padding: 10px;
