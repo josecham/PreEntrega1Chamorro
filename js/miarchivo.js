@@ -45,12 +45,12 @@ for (let i = 1; i <= 2; i++) {
     let nftdisponibles = 12
     function quedan(){ 
     console.log("quedan")
-    alert("quedan"+nftdisponibles);
+    alert("NFT DISPONIBLES: "+nftdisponibles);
     nftdisponibles = nftdisponibles -1; 
     return nftdisponibles
     }
     quedan()
-    
+
 
 
 
