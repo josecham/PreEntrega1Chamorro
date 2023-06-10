@@ -91,11 +91,7 @@ h1 {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-  main, footer {
+  header, main, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +111,7 @@ h1 {
     flex-direction: column;
   }
   li {
-    padding: 1px;
+    padding: 10px;
   }
   .gridMainProyectos {
     display: flex;
@@ -140,7 +136,7 @@ h1 {
   .colorform {
     background-color: lightyellow;
     font-size: 12px;
-    width: 50%;
+    width: 200px;
     margin-left: 150px;
     border-radius: 20px;
     margin: 20px;
@@ -273,9 +269,8 @@ h1 {
   }
   .colorform {
     background-color: lightyellow;
-    width: 200px;
+    width: 350px;
     border-radius: 20px;
-    margin: 20px;
   }
   .centro {
     display: flex;
