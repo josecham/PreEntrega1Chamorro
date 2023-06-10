@@ -1,3 +1,4 @@
+//algoritmo con condicional if else
 let condition = true
 let años = Number(prompt('ingrese edad de usuario: '))
 while (condition) {
@@ -11,8 +12,8 @@ años = Number(prompt('ingrese edad de usuario: '))
 }
 }
 
+//Ciclo while que de repite en hasta que se ingresa "SI"
 let entrada = prompt("¿desea comprar un NFT?SI/NO");
-// //Repetimos hasta que se ingresa "SI"
 while( entrada !== "SI" )
 {
    switch (entrada) {
@@ -31,6 +32,7 @@ while( entrada !== "SI" )
    
 }
 
+//Ciclo for para ordenar por turnos a medida que vayan ingresando
 for (let i = 1; i <= 2; i++) {
     // En cada repetición solicitamos un nombre.
     let ingresarNombre = prompt("Ingresar nombre");
@@ -38,7 +40,21 @@ for (let i = 1; i <= 2; i++) {
     // Informamos el turno asignado usando el número de repetición (i). cuando llega al 2 se corta el bucle
     alert(" Prioridad  N° "+i+" Nombre: "+ingresarNombre);
     }
+    
+// Funcion quedan() para saber cuantos Nft tengo disponibles
+    let nftdisponibles = 12
+    function quedan(){ 
+    console.log("quedan")
+    alert("quedan"+nftdisponibles);
+    nftdisponibles = nftdisponibles -1; 
+    return nftdisponibles
+    }
+    quedan()
+    
 
+
+
+   
 
 
     
