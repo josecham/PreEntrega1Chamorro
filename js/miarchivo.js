@@ -44,7 +44,7 @@ for (let i = 1; i <= 2; i++) {
 // Funcion quedan() para saber cuantos Nft tengo disponibles
     let nftdisponibles = 12
     function quedan(){ 
-    console.log("quedan")
+    console.log("quedan: "+nftdisponibles)
     alert("NFT DISPONIBLES: "+nftdisponibles);
     nftdisponibles = nftdisponibles -1; 
     return nftdisponibles
