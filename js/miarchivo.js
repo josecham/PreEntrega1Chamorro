@@ -102,13 +102,10 @@ while( nft !== "" )
     }
     quedan()
 
-
-
-
-   
-
-
-    
-    
-
-
+    function saludar() {
+             
+            alert("Muchas Gracias!! solo resta completar el formulario para efectuar la compra")
+        
+        }
+        
+        saludar()   
